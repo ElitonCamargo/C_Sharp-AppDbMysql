@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace AppMySql
 {
-    public partial class Container : Form
+    public partial class Categoria_Cadastrar : Form
     {
-        public Container()
+        public Categoria_Cadastrar()
         {
             InitializeComponent();
-        }
-
-        private void toolStripDropDownButton1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
