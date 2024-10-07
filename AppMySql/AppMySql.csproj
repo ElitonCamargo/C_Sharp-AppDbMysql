@@ -56,6 +56,12 @@
     <Compile Include="Categoria_Cadastrar.Designer.cs">
       <DependentUpon>Categoria_Cadastrar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Categoria_Listar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categoria_Listar.Designer.cs">
+      <DependentUpon>Categoria_Listar.cs</DependentUpon>
+    </Compile>
     <Compile Include="class\Categoria.cs" />
     <Compile Include="class\Conexao.cs" />
     <Compile Include="Container.cs">
@@ -75,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Categoria_Cadastrar.resx">
       <DependentUpon>Categoria_Cadastrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categoria_Listar.resx">
+      <DependentUpon>Categoria_Listar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Container.resx">
       <DependentUpon>Container.cs</DependentUpon>
@@ -110,6 +119,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1330172.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

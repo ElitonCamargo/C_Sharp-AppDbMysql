@@ -63,6 +63,16 @@ namespace AppMySql.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1330172 {
+            get {
+                object obj = ResourceManager.GetObject("1330172", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap categoria {
             get {
                 object obj = ResourceManager.GetObject("categoria", resourceCulture);
